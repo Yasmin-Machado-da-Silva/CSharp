@@ -1,0 +1,14 @@
+C:\Users\39910759896\Desktop\aula-backend\HelloWorld\bin\Debug\net8.0\HelloWorld.exe
+C:\Users\39910759896\Desktop\aula-backend\HelloWorld\bin\Debug\net8.0\HelloWorld.deps.json
+C:\Users\39910759896\Desktop\aula-backend\HelloWorld\bin\Debug\net8.0\HelloWorld.runtimeconfig.json
+C:\Users\39910759896\Desktop\aula-backend\HelloWorld\bin\Debug\net8.0\HelloWorld.dll
+C:\Users\39910759896\Desktop\aula-backend\HelloWorld\bin\Debug\net8.0\HelloWorld.pdb
+C:\Users\39910759896\Desktop\aula-backend\HelloWorld\obj\Debug\net8.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\39910759896\Desktop\aula-backend\HelloWorld\obj\Debug\net8.0\HelloWorld.AssemblyInfoInputs.cache
+C:\Users\39910759896\Desktop\aula-backend\HelloWorld\obj\Debug\net8.0\HelloWorld.AssemblyInfo.cs
+C:\Users\39910759896\Desktop\aula-backend\HelloWorld\obj\Debug\net8.0\HelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\39910759896\Desktop\aula-backend\HelloWorld\obj\Debug\net8.0\HelloWorld.dll
+C:\Users\39910759896\Desktop\aula-backend\HelloWorld\obj\Debug\net8.0\refint\HelloWorld.dll
+C:\Users\39910759896\Desktop\aula-backend\HelloWorld\obj\Debug\net8.0\HelloWorld.pdb
+C:\Users\39910759896\Desktop\aula-backend\HelloWorld\obj\Debug\net8.0\HelloWorld.genruntimeconfig.cache
+C:\Users\39910759896\Desktop\aula-backend\HelloWorld\obj\Debug\net8.0\ref\HelloWorld.dll
