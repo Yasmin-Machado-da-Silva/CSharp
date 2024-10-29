@@ -1,29 +1,15 @@
-﻿int[] vetor1 = new int[10];
-int[] vetor2 = new int[10];
-int[] vetorIntercalado = new int[20];
+﻿int[] arrayNumeros1 = {50, 90, 100, 499, 1257, 56, 589, 90, 30, 201};
+int[] arrayNumeros2 = {999, 456, 898, 1, 5, 7, 80, 2, 3, 2010};
 
 Console.WriteLine("Digite 10 números para o primeiro vetor:");
-for (int i = 0; i < 10; i++)
+for (int i = 0; i < arrayNumeros1.Length; i++)
 {
-    Console.Write($"Vetor 1 - Elemento {i + 1}: ");
-    vetor1[i] = int.Parse(Console.ReadLine());
-}
-
-Console.WriteLine("Digite 10 números para o segundo vetor:");
-for (int i = 0; i < 10; i++)
-{
-    Console.Write($"Vetor 2 - Elemento {i + 1}: ");
-    vetor2[i] = int.Parse(Console.ReadLine());
-}
-
-for (int i = 0, j = 0; i < 10; i++, j += 2)
-{
-    vetorIntercalado[j] = vetor1[i];
-    vetorIntercalado[j + 1] = vetor2[i];
-}
-
-Console.WriteLine("Vetor intercalado:");
-for (int i = 0; i < 20; i++)
-{
-    Console.Write($"{vetorIntercalado[i]} ");
+    if (i % 2 == 0)
+    {
+        Console.WriteLine(arrayNumeros1[i]);
+    }
+    else
+    {
+        Console.WriteLine(arrayNumeros2[i]);
+    }
 }

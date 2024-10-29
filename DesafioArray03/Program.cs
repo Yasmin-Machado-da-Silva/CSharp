@@ -14,6 +14,8 @@ for (int i = 1; i < 12; i++)
 {
     if (temperaturas[i] > maiorTemp)
         maiorTemp = temperaturas[i];
+
+        
     if (temperaturas[i] < menorTemp)
         menorTemp = temperaturas[i];
 }
