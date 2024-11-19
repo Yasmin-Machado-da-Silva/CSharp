@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace PilaresPOO.Classes.Aprendizagem
 {
-    public class Carro : Veiculo
+    public abstract class  Carro : Veiculo
     {
         int qtdPortas;
     }

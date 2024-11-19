@@ -1,42 +1,17 @@
-﻿using PilaresPOO.Classes.Aprendizagem;
+﻿using PilaresPOO.Classes.Pilares;
 
-Pessoa Yaya = new Pessoa();
-Yaya.Nome = "Yaya";
+Console.Clear();
+ContaCorrente ctYas= new ContaCorrente();
 
-Console.WriteLine($"{Yaya.Nome} Nasceu com {Yaya.Idade} anos");
+ctYas.Titular = "Yasmin Machado da Silva";
+ctYas.BotaSaldoAi(1000000f);
 
-//dados do professor
-Professor sam = new Professor(432342);
-sam.Nome = "Samanata";
-sam.Idade = 22;
+Console.WriteLine($"Titular da conta {ctYas.Titular}");
+Console.WriteLine($"Saldo da conta: {ctYas.getSaldo()}");
 
-//dados do aluno
-Aluno isaacBorges = new Aluno();
-isaacBorges.Nome = "Isaac Borges";
-isaacBorges.Matricula = 1213245;
-isaacBorges.Curso = "Dev";
-isaacBorges.Media =7.9f;
+float valorSacado = ctYas.Sacar (1200f);
 
-//exibicao dos dados
-Console.WriteLine($"curso: {isaacBorges.Curso}");
-Console.WriteLine($"Professor {sam.Nome}");
-Console.WriteLine($"Identificação do Professor: {sam.NIF}");
+Console.WriteLine($"Valor do Saque: {valorSacado}");
+Console.WriteLine($"Novo saldo: {ctYas.getSaldo()}");
 
 
-Console.WriteLine($"aluno: {isaacBorges.Nome}");
-Console.WriteLine($"idade: {isaacBorges.Idade}");
-Console.WriteLine($"matricula: {isaacBorges.Matricula}");
-Console.WriteLine($"media: {isaacBorges.Media}");
-
-Carro Carro1 = new Carro();
-
-Carro1.marca = "Volkswagen";
-Carro1.modelo = "Golf GTI";
-
-
-Console.WriteLine($"Marca");
-Console.WriteLine($"Modelo");
-Console.WriteLine($"Cor");
-Console.WriteLine($"Potencia");
-Console.WriteLine($"Passageiros");
-Console.WriteLine($"Portas");
